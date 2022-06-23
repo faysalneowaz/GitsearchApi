@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BrainStation.iml" filepath="$PROJECT_DIR$/.idea/modules/BrainStation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrainStation.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrainStation.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrainStation.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrainStation.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrainStation.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrainStation.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BrainStation.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BrainStation.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idConstrainLayoutCustomLayoutParcel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:background="@drawable/layout_rectagle_box_blue"
+    android:clickable="true"
+    android:elevation="5dp">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginLeft="5dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Star Count: "
+               android:textSize="16sp"
+               android:textColor="@color/black"
+               />
+           <TextView
+               android:id="@+id/STARCOUNT"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="40"
+               android:textSize="16sp"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language: "
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/LANGUAGE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Open Issues: "
+               android:textSize="16sp"
+               android:textColor="@color/black"
+               />
+           <TextView
+               android:id="@+id/OPENISSUE"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="300"
+               android:textSize="16sp"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Watch Count: "
+               android:textSize="16sp"
+               android:textColor="@color/black"
+               />
+           <TextView
+               android:id="@+id/WATCHCOUNT"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="200"
+               android:textSize="16sp"
+               android:textColor="@color/black"
+               />
+       </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Created At: "
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  />
+
+              <TextView
+                  android:id="@+id/CREATEDAT"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="20-12-2022"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  />
+          </LinearLayout>
+
+       <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Pushed At: "
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  />
+
+              <TextView
+                  android:id="@+id/PUSHEDAT"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="20-12-2022"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  />
+          </LinearLayout>
+
+       <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Updated At: "
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  />
+
+              <TextView
+                  android:id="@+id/UPDATEDAT"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="20-12-2022"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  />
+          </LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
